@@ -20,3 +20,5 @@ Example: 910
 split() : 7m23.9s
 format() : 25m17.9s
 main() : 6m
+======================================
+total: about 39min
