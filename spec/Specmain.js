@@ -26,3 +26,17 @@ describe("format()",function(){
         expect(expectOutput).toEqual(output)
     });
 });
+describe("main()",function(){
+    it("transform a number to lcd-format",function(){
+        var input = '910';
+        var expectOutput = '._. ... ._. \n|_| ..| |.| \n..| ..| |_| \n'
+        var output = main(input)
+        expect(expectOutput).toEqual(output)
+    });
+    it("transform a number to lcd-format",function(){
+        var input = '1';
+        var expectOutput ='... \n..| \n..| \n' 
+        var output = main(input)
+        expect(expectOutput).toEqual(output)
+    });
+});

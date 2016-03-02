@@ -71,3 +71,7 @@ function format(splittedNumber){
     }
     return  result;
 }
+
+function main(input){
+    return format(split(input));
+}
